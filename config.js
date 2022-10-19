@@ -67,7 +67,7 @@ global.ppulsa2 = '08969905480' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/mosyafik'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6289699005480'
+global.nomorbot = '6282155207160'
 global.nomorown = '6285157883553'
 global.namebot = 'BotShin V2.5'
 global.nameown = 'Mos'
