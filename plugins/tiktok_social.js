@@ -19,7 +19,7 @@ let p = await tiktok(args[0])
 *Nickname:* ${p.dev}
 *Description:* ${p.description}
 *Url:* ${p.url}
-_©WH-MODS-BOT-V1🍭_
+_BotShib v2.5🍭_
 `.trim()
 conn.send2ButtonVid(m.chat, p.link, cap, author, `Donasi`, `.donasi`, `Audio`, `.tta ${args[0]}`, fakes, adReply)
 } catch (e) {
