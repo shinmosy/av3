@@ -35,8 +35,8 @@ export function before(m) {
   *${conn.getName(m.sender)}* @${m.sender.split("@")[0]} *berhenti AFK* ${user.afkReason ? ' setelah ' + user.afkReason : ''}
   Selama ${(new Date - user.afk).toTimeString()}
   `.trim()
-  let kataafk = ['mau turu', 'mau nyolong', 'Ke rumah ayang', 'jagain lilin', 'beli pop es', 'kawin lari', 'main kelereng', 'petak umpet', 'push renk', 'push up joni', 'olahraga', 'onani', 'beraq', 'open bo', 'di suruh emak', 'kerja']
-    conn.sendButton(m.chat, caption, wm, null, [['AFK Lagi', '.afk ' + kataafk.getRandom()]], m, { mentions: conn.parseMention(caption) })
+  let kataafk = ['mau turu', 'mau nyolong', 'Ke rumah bias ku', 'mau ngising', 'beli surya', 'beli seblak', 'olahraga malam', 'mangan', 'push renk sampe losstrek', 'push up joni', 'senam bersama janda', 'nonton dipfek', 'ngcok', 'sewa oyo', 'di suruh emak', 'kerja']
+    conn.sendButton(m.chat, caption, wm, null, [['😅 AFK Lagi', '.afk ' + kataafk.getRandom()]], m, { mentions: conn.parseMention(caption) })
         user.afk = -1
         user.afkReason = ''
     }
@@ -54,7 +54,7 @@ export function before(m) {
   Dia sedang AFK *${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}*
   Selama ${(new Date - afkTime).toTimeString()}
   `.trim()
-    conn.sendButton(m.chat, caption, wm, null, [['Berhenti', '/tts id kok berhenti']], m, { mentions: conn.parseMention(caption) })
+    conn.sendButton(m.chat, caption, wm, null, [['Maaf Yah', '/tts id yaudah jangan di ulang lagi']], m, { mentions: conn.parseMention(caption) })
     }
     return true
 }
