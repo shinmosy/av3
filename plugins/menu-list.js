@@ -556,8 +556,6 @@ const listMessage = {
 
     orderTitle: `▮Menu ▸`,
 
-    thumbnail: await (await fetch(fla + 'Loading')).buffer(), //Gambarnye
-
     sellerJid: '0@s.whatsapp.net' 
 
     }
@@ -566,7 +564,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar. . .*', ftrol) 
+    conn.reply(m.chat, '*Loading. . .*', ftrol) 
 
     
     //------------------< MENU >----------------
