@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗2.5 」' //Main Watermark
+global.wm = '「 𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗2.5 」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗2 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ 𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗2.5 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `⫹⫺ WhatsApp Bot | By Mos`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗2 あ」'
+global.author = '「 𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗2 あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -178,9 +178,8 @@ global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-global.hwaifu2 = ['https://telegra.ph/file/3e60b028b1de583ec0d3d.jpg',
-'hhttps://telegra.ph/file/d50e9c8402cff236af979.jpg']//////
-/////////
+global.hwaifu2 = ['https://telegra.ph/file/3e60b028b1de583ec0d3d.jpg','https://telegra.ph/file/d50e9c8402cff236af979.jpg']
+
 /*============== HENTAI ==============*/ 
 //OPTIONS
 global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
